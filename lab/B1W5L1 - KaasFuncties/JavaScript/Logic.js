@@ -2,13 +2,13 @@ if (prompt("is de kaas geel?") === "ja") {
    if (prompt("zitten er gaten in?") ==="ja") {
       if (prompt("is de kaas belachelijk duur?") ==="ja") {
          alert("emmenthaler")
-      }else{
+      } else {
          alert("leerdammer")
          document.write("leerdammer")
          document.write('<img src="img/leerdammer-original-half.jpg">')
       }
 
-   }else{
+   } else {
       if (prompt("is de kaas hard als steen?") ==="ja") {
          alert("pamigiano reggiano")
       }else{
@@ -16,15 +16,15 @@ if (prompt("is de kaas geel?") === "ja") {
       }
    }
 
-}else{
+} else {
    if (prompt("heeft de kaas blauwe schimmel?") ==="ja") {
       if (prompt("heeft de kaas een korst?") ==="ja") {
          alert("bleu de rochbaron")
-      }else{
+      } else {
          alert("foume d'Ambert")
       }
 
-   }else{
+   } else {
       if (prompt("heeft de kaas blauwe schimmel?") ==="ja") {
          alert("camembert")
          }else{
